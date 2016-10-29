@@ -1,0 +1,5 @@
+auth
+vendor
+composer.phar
+www.pid
+composer.lock

@@ -16,6 +16,7 @@
 		'page_size'=>'1',
 		's_track_rating'=>'desc'
 	);
+	
 	$httpURL=$httpURL . '?' . http_build_query($optionsFirstPart) . '?' .http_build_query($optionsSecondPart);
 	curl_setopt($curl,CURLOPT_URL,$httpURL);
 	$contents=curl_exec($curl);
